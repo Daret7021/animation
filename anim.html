@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<script src="https://d3js.org/d3.v7.min.js"></script>
+	<style>
+	</style>
+</head>
+<body>
+	<svg></svg>
+	<form>
+		<label for="duration">Скорость анимации (секунд):</label>
+		<input type="number" id="duration" value="5">
+		<button type="button" id="start">Старт</button>
+		<button type="button" id="clear">Сброс</button><br>
+		<label>Масштаб увеличения (%):</label>
+		<input type="number" id="decScale" value="30" min="0" max="80">
+	</form>
+	<script src="anim.js"></script>
+</body>
+</html>
